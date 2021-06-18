@@ -12,5 +12,3 @@ urlpatterns = [
     path('products/<int:pk>', ProductPutDeleteListAPIView.as_view(), name='product'),
     path('', include(router.urls))
 ]
-
-

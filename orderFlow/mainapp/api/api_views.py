@@ -65,12 +65,3 @@ class OrderViewSet(viewsets.ModelViewSet):
         if instance.status == "accepted":
             return Response("Order with status 'accepted' can't be deleted", status=status.HTTP_403_FORBIDDEN)
         return super(OrderViewSet, self).destroy(request, *args, **kwargs)
-
-
-
-
-
-
-
-
-

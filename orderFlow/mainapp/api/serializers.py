@@ -58,8 +58,3 @@ class OrderSerializer(serializers.ModelSerializer):
         instance.external_id = validated_data.get('external_id', instance.external_id)
         instance.save()
         return instance
-
-
-
-
-

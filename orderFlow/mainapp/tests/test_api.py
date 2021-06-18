@@ -176,15 +176,3 @@ class ApiTestCase(APITestCase):
         response = self.client.post('http://testserver/api/v1/orders/1/fail', data, format='json')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.data, 'rejected')
-
-
-
-
-
-
-
-
-
-
-
-
