@@ -1,3 +1,7 @@
 Django==3.2.4
 djangorestframework==3.12.4
 requests==2.25.1
+pytest-django==3.10.0
+pytest==6.2.4
+six==1.16.0
+pdbpp==0.10.2
